@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Daniel Owens</title>
+  <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -41,13 +41,25 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1>Contact</h1>
 
-      <img src="assets/images/daniel-owens-portfolio-copy.jpg" class="auth-image" alt="Your Name">
-
-      <p>
-        Yo - I'm Daniel, a web developer in San Francisco. I want to make powerful and elegant websites that are useful. Until I acquire the skills necessary to do that, just can find me tearing my hair out in cafés throughout the city. :) </p>
-
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
     </section>
 
@@ -55,7 +67,7 @@
 
   <footer>
     <div class="container">
-      Copyright &copy; 
+      Copyright &copy; Daniel Owens 2018
     </div>
   </footer>
 </body>
